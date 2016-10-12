@@ -49,6 +49,8 @@ path => '/usr/bin:/usr/local/bin',
 creates => '/etc/motd',
 }
 
+include users
+
 #file { '/etc/motd':
 #  ensure  => file,
 #  owner   => 'root',
