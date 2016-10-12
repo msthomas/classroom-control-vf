@@ -1,5 +1,5 @@
 
 
-EXPORT MIKE="titten!"
+export MIKE="titten!"
 
-eho -e "\nMsg from bashrc file"
+echo -e "\nMsg from bashrc file"
