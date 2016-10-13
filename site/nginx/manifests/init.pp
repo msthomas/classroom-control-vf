@@ -14,7 +14,7 @@ class nginx {
  }
  
  # this will use File default to cature tow and use an array
- file { '/var/www', '/etc/nginx/conf.d':
+ file { ['/var/www', '/etc/nginx/conf.d']:
    ensure => directory,
  }
  
