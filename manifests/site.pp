@@ -42,7 +42,7 @@ ini_setting { 'random ordering':
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
-  include role::classroom
+#exercise 10.1 remove this  include role::classroom
   
 #  exec { "cowsay 'Welcome to ${::fqdn}!' > /etc/motd":
 # path => '/usr/bin:/usr/local/bin',
