@@ -60,7 +60,18 @@ include skeleton
  # content => "Hey, Puppet is fun!\n",
 #}
 
+ if $::virtual == 'physical' 
+ {
+   notify "This is physical machine. GOt back from virtula fact: $::virtual"
+ }
+ else
+ {
+   notify "This is virtual machine. GOt back from virtula fact: $::virtual"
+   }
+
 }
+
+
 
 
 
