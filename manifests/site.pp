@@ -63,6 +63,8 @@ include skeleton
  
    notify { "This is waht type of machine? machine. GOt back from virtula fact: $::virtual": }
 
+  $message = hiera('message')
+  notify { "this is msg back from Hiera: $message ": }
 }
 
 
