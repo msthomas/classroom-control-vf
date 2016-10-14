@@ -62,11 +62,11 @@ include skeleton
 
  if $::virtual == 'physical' 
  {
-   notify "This is physical machine. GOt back from virtula fact: $::virtual"
+   notify { "This is physical machine. GOt back from virtula fact: $::virtual" }
  }
  else
  {
-   notify "This is virtual machine. GOt back from virtula fact: $::virtual"
+   notify { "This is virtual machine. GOt back from virtula fact: $::virtual" }
    }
 
 }
