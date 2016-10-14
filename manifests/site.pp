@@ -61,7 +61,7 @@ include skeleton
 #}
 
  
-   notify { "This is waht type of machine? machine. GOt back from virtula fact: $::virtual" }
+   notify { "This is waht type of machine? machine. GOt back from virtula fact: $::virtual": }
 
 }
 
